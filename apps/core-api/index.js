@@ -1,9 +1,11 @@
 const express = require('express');
+const { isOne } = require('@steviebiddles/validator');
 
 const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
+    console.log(isOne(1));
     res.send({
         message: `Core API: Hello, ${req.query.name || 'World'}!`
     });
