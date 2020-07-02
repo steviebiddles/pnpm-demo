@@ -1,5 +1,16 @@
 # @steviebiddles/core-api
 
+## 1.6.0
+
+### Minor Changes
+
+- 60b301a: 8
+
+### Patch Changes
+
+- Updated dependencies [60b301a]
+  - @steviebiddles/validator@1.7.0
+
 ## 1.5.0
 
 ### Minor Changes
