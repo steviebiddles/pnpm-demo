@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "publish": "pnpx changeset publish",
-    "version": "pnpx changeset version && pnpm install",
+    "version": "pnpx changeset version",
     "test": "echo \"Error: no test specified\" && exit 1",
     "vars:name": "echo $npm_package_name",
     "vars:version": "echo $npm_package_version"
