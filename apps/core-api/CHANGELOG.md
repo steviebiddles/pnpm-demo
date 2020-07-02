@@ -1,5 +1,16 @@
 # @steviebiddles/core-api
 
+## 1.4.0
+
+### Minor Changes
+
+- 0d99d85: 4
+
+### Patch Changes
+
+- Updated dependencies [0d99d85]
+  - @steviebiddles/validator@1.3.0
+
 ## 1.3.0
 
 ### Minor Changes
