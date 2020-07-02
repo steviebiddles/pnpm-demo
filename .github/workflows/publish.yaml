@@ -40,8 +40,8 @@ jobs:
         id: changesets
         uses: changesets/action@master
         with:
-          version: pnpx run version
-          publish: pnpx run publish
+          version: pnpm run version
+          publish: pnpm run publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
