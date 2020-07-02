@@ -41,5 +41,6 @@ jobs:
         uses: changesets/action@master
         with:
           publish: pnpm run publish
+          version: pnpm run version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
