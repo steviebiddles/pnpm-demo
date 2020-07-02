@@ -25,6 +25,8 @@ jobs:
         with:
           # Fetch all git history for changesets
           fetch-depth: 0
+        run: |
+          git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
       - name: PNPM setup
         uses: pnpm/action-setup@v1.2.0
@@ -32,11 +34,10 @@ jobs:
           version: ${{secrets.PNPM_VERSION}}
           run_install: true
 
-      - name: Create Release Pull Request / Publish
+      - name: Create Release Pull Request
         id: changesets
         uses: changesets/action@master
         with:
-          # This expects you to have a script called release which does a build for your packages and calls changeset publish
           version: pnpm run version
           publish: pnpm run publish
         env:
