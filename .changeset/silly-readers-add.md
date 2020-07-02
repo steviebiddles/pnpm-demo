@@ -1,5 +1,0 @@
----
-"@steviebiddles/validator": minor
----
-
-f
