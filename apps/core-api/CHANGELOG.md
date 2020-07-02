@@ -1,5 +1,16 @@
 # @steviebiddles/core-api
 
+## 1.3.0
+
+### Minor Changes
+
+- f9fb1bf: is three
+
+### Patch Changes
+
+- Updated dependencies [f9fb1bf]
+  - @steviebiddles/validator@1.2.0
+
 ## 1.2.0
 
 ### Minor Changes
