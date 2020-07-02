@@ -1,5 +1,5 @@
 const express = require('express');
-const { isOne, isTwo, isThree, isSeven } = require('@steviebiddles/validator');
+const { isOne, isTwo, isEight } = require('@steviebiddles/validator');
 
 const app = express();
 const PORT = 3000;
@@ -7,7 +7,7 @@ const PORT = 3000;
 app.get('/', (req, res) => {
     console.log(isOne(1));
     console.log(isTwo(2));
-    console.log(isSeven(7));
+    console.log(isEight(7));
     res.send({
         message: `Core API: Hello, ${req.query.name || 'World'}!`
     });
