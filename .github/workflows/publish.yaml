@@ -34,6 +34,7 @@ jobs:
         uses: pnpm/action-setup@v1.2.0
         with:
           version: ${{secrets.PNPM_VERSION}}
+          run_install: true
 
       - name: Create Release Pull Request
         id: changesets
