@@ -1,0 +1,27 @@
+{
+  "name": "pnpm-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "pnpx changeset publish",
+    "version": "pnpx changeset version && pnpm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vars:name": "echo $npm_package_name",
+    "vars:version": "echo $npm_package_version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.9.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/steviebiddles/pnpm-demo.git"
+  }
+}

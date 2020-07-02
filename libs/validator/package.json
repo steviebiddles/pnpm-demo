@@ -1,0 +1,23 @@
+{
+  "name": "@steviebiddles/validator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Validator: buidling...\"",
+    "test": "echo \"Validator: running tests...\"",
+    "vars:name": "echo $npm_package_name",
+    "vars:description": "echo $npm_package_description",
+    "vars:version": "echo $npm_package_version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/steviebiddles/pnpm-demo.git"
+  }
+}

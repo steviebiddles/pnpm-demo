@@ -1,0 +1,27 @@
+{
+  "name": "@steviebiddles/core-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Core API: running tests...\"",
+    "vars:name": "echo $npm_package_name",
+    "vars:description": "echo $npm_package_description",
+    "vars:version": "echo $npm_package_version"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/steviebiddles/pnpm-demo.git"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

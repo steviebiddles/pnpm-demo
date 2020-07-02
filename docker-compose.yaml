@@ -1,0 +1,38 @@
+version: '2.4'
+
+# docker-compose allows you to extend - maybe have a base with data stores etc
+## prod extents and has separate services
+
+services:
+
+  core-api:
+    build:
+      context: .
+      dockerfile: apps/core-api/Dockerfile
+      target: dev
+    init: true # https://github.com/krallin/tini
+    ports:
+      - '3000:3000'
+      - '9229:9229'
+    volumes:
+      - ./apps/core-api:/usr/src/apps/core-api:delegated
+      - ./libs:/usr/src/libs:delegated
+
+      # empty bind mount
+      - /usr/src/node_modules
+      - /usr/src/apps/core-api/node_modules
+
+  #users-api:
+  #  build:
+  #    context: .
+  #    dockerfile: apps/users-api/Dockerfile
+  #  init: true # https://github.com/krallin/tini
+  #  ports:
+  #    - '3001:3001'
+  #    - '9228:9228'
+  #  volumes:
+  #    - ./apps/users-api:/usr/src/anydelay.com/apps/users-api:delegated
+  #    - /usr/src/anydelay.com/apps/users-api/node_modules # empty bind mount
+
+  #    - ./libs/logger:/usr/src/anydelay.com/libs/logger:delegated
+  #    - ./libs/validator:/usr/src/anydelay.com/libs/validator:delegated
