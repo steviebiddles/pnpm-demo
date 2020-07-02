@@ -4,6 +4,6 @@
   "commit": false,
   "linked": [],
   "access": "restricted",
-  "baseBranch": "develop",
+  "baseBranch": "master",
   "updateInternalDependencies": "patch"
 }

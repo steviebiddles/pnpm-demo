@@ -3,7 +3,7 @@ name: Publish
 on:
   push:
     branches:
-      - develop
+      - master
 
 jobs:
 
@@ -43,12 +43,3 @@ jobs:
           publish: pnpm run publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      #- name: Merge to master (--ff-only)
-      #  uses: actions/checkout@master
-      #  with:
-      #    ref: 'master'
-      #    fetch-depth: 0
-      #  run: |
-      #    git merge develop --ff-only
-      #    git push
