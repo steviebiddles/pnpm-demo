@@ -1,5 +1,11 @@
 # @steviebiddles/core-api
 
+## 1.5.0
+
+### Minor Changes
+
+- 7804766: use 7
+
 ## 1.4.0
 
 ### Minor Changes
