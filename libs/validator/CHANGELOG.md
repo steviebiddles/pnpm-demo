@@ -1,5 +1,11 @@
 # @steviebiddles/validator
 
+## 1.4.0
+
+### Minor Changes
+
+- cf13361: f
+
 ## 1.3.0
 
 ### Minor Changes
