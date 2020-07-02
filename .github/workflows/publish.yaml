@@ -25,6 +25,8 @@ jobs:
         with:
           # Fetch all git history for changesets
           fetch-depth: 0
+
+      - name: Git - pull tags
         run: |
           git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
