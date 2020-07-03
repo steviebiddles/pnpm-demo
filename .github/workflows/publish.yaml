@@ -36,7 +36,6 @@ jobs:
           version: ${{secrets.PNPM_VERSION}}
           run_install: |
             - recursive: false
-              args: [--frozen-lockfile false]
 
       - name: Create Release Pull Request
         id: changesets
