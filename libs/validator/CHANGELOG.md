@@ -1,5 +1,12 @@
 # @steviebiddles/validator
 
+## 1.13.0
+
+### Minor Changes
+
+- 21024aa: first
+- aed7167: second
+
 ## 1.12.0
 
 ### Minor Changes
