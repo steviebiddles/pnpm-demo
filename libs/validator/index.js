@@ -5,3 +5,4 @@ exports.isThree = (value) => value === 3;
 exports.isFour = (value) => value === 4;
 exports.isFive = (value) => value === 5;
 exports.isSix = (value) => value === 6;
+exports.isTen = (value) => value === 10;
