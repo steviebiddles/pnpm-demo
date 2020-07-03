@@ -1,5 +1,11 @@
 # @steviebiddles/validator
 
+## 1.10.0
+
+### Minor Changes
+
+- 4c5acdf: 3
+
 ## 1.9.0
 
 ### Minor Changes
