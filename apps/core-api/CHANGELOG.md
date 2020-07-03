@@ -1,5 +1,16 @@
 # @steviebiddles/core-api
 
+## 1.9.0
+
+### Minor Changes
+
+- c2cfe64: both
+
+### Patch Changes
+
+- Updated dependencies [c2cfe64]
+  - @steviebiddles/validator@1.11.0
+
 ## 1.8.0
 
 ### Minor Changes
