@@ -23,7 +23,6 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@master
         with:
-          # Fetch all git history for changesets
           fetch-depth: 0
 
       - name: Git - pull tags
@@ -33,11 +32,11 @@ jobs:
       - name: PNPM setup
         uses: pnpm/action-setup@v1.2.0
         with:
-          version: ${{secrets.PNPM_VERSION}}
+          version: ${{ secrets.PNPM_VERSION }}
           run_install: |
             - recursive: false
 
-      - name: Create Release Pull Request
+      - name: Create Release Pull Request / Publish Packages
         id: changesets
         uses: changesets/action@master
         with:
