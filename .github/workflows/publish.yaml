@@ -36,12 +36,12 @@ jobs:
           version: ${{secrets.PNPM_VERSION}}
           run_install: |
             - recursive: false
-              args: [--frozen-lockfile false]
 
       - name: Create Release Pull Request
         id: changesets
         uses: changesets/action@master
         with:
           publish: pnpm run publish
+          version: pnpm run version
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
