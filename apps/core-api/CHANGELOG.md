@@ -1,5 +1,18 @@
 # @steviebiddles/core-api
 
+## 1.11.0
+
+### Minor Changes
+
+- 21024aa: first
+- aed7167: second
+
+### Patch Changes
+
+- Updated dependencies [21024aa]
+- Updated dependencies [aed7167]
+  - @steviebiddles/validator@1.13.0
+
 ## 1.10.0
 
 ### Minor Changes
