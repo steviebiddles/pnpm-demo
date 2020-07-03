@@ -1,5 +1,11 @@
 # @steviebiddles/validator
 
+## 1.12.0
+
+### Minor Changes
+
+- 1a81275: five on it
+
 ## 1.11.0
 
 ### Minor Changes

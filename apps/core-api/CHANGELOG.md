@@ -1,5 +1,16 @@
 # @steviebiddles/core-api
 
+## 1.10.0
+
+### Minor Changes
+
+- 1a81275: five on it
+
+### Patch Changes
+
+- Updated dependencies [1a81275]
+  - @steviebiddles/validator@1.12.0
+
 ## 1.9.0
 
 ### Minor Changes
