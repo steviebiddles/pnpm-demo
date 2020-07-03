@@ -1,5 +1,6 @@
 const express = require('express');
 const { isOne, isTwo, isThree, isFive } = require('@steviebiddles/validator');
+const { adder } = require('@steviebiddles/common');
 
 const app = express();
 const PORT = 3000;
@@ -9,6 +10,7 @@ app.get('/', (req, res) => {
     console.log(isTwo(2));
     console.log(isThree(3));
     console.log(isFive(5));
+    console.log(adder(1, 2));
     // will open another PR and it is now open
     res.send({
         message: `Core API: Hello, ${req.query.name || 'World'}!`
