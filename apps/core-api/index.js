@@ -9,6 +9,7 @@ app.get('/', (req, res) => {
     console.log(isTwo(2));
     console.log(isThree(3));
     console.log(isFive(4));
+    // will open another PR
     res.send({
         message: `Core API: Hello, ${req.query.name || 'World'}!`
     });
