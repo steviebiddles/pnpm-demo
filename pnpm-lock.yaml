@@ -9,7 +9,7 @@ importers:
       '@steviebiddles/validator': 'link:../../libs/validator'
       express: 4.17.1
     specifiers:
-      '@steviebiddles/validator': ^1.7.0
+      '@steviebiddles/validator': ^1.8.0
       express: ^4.17.1
   apps/users-api:
     dependencies:
