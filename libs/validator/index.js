@@ -7,3 +7,4 @@ exports.isFive = (value) => value === 5;
 exports.isSix = (value) => value === 6;
 exports.isSeven = (value) => value === 7;
 exports.isEight = (value) => value === 8;
+exports.isNine = (value) => value === 9;
