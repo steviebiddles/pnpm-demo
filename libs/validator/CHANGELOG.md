@@ -1,5 +1,11 @@
 # @steviebiddles/validator
 
+## 1.8.0
+
+### Minor Changes
+
+- c8111fe: nine
+
 ## 1.7.0
 
 ### Minor Changes

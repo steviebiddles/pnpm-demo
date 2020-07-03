@@ -1,5 +1,16 @@
 # @steviebiddles/core-api
 
+## 1.7.0
+
+### Minor Changes
+
+- c8111fe: nine
+
+### Patch Changes
+
+- Updated dependencies [c8111fe]
+  - @steviebiddles/validator@1.8.0
+
 ## 1.6.0
 
 ### Minor Changes
