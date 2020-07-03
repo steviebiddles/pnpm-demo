@@ -1,5 +1,11 @@
 # @steviebiddles/validator
 
+## 1.9.0
+
+### Minor Changes
+
+- d14136b: clear
+
 ## 1.8.0
 
 ### Minor Changes
