@@ -1,5 +1,11 @@
 # @steviebiddles/core-api
 
+## 1.8.0
+
+### Minor Changes
+
+- 0646dac: only app
+
 ## 1.7.0
 
 ### Minor Changes
