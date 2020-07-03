@@ -10,10 +10,14 @@ services:
       context: .
       dockerfile: apps/core-api/Dockerfile
       target: dev
+      args:
+        NODE_AUTH_TOKEN: "${NODE_AUTH_TOKEN}"
     init: true # https://github.com/krallin/tini
     ports:
       - '3000:3000'
       - '9229:9229'
+    env_file:
+      - ./.env
     volumes:
       - ./apps/core-api:/usr/src/apps/core-api:delegated
       - ./libs:/usr/src/libs:delegated

@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     console.log(isOne(1));
     console.log(isTwo(2));
     console.log(isThree(3));
-    console.log(isFive(4));
+    console.log(isFive(5));
     // will open another PR and it is now open
     res.send({
         message: `Core API: Hello, ${req.query.name || 'World'}!`
