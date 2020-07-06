@@ -1,5 +1,11 @@
 # @steviebiddles/validator
 
+## 1.16.0
+
+### Minor Changes
+
+- 973403c: is ten
+
 ## 1.15.0
 
 ### Minor Changes

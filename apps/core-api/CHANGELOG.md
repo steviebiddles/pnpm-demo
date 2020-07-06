@@ -1,5 +1,16 @@
 # @steviebiddles/core-api
 
+## 1.13.0
+
+### Minor Changes
+
+- 973403c: is ten
+
+### Patch Changes
+
+- Updated dependencies [973403c]
+  - @steviebiddles/validator@1.16.0
+
 ## 1.12.0
 
 ### Minor Changes
