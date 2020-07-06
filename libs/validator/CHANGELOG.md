@@ -1,5 +1,12 @@
 # @steviebiddles/validator
 
+## 1.17.0
+
+### Minor Changes
+
+- e5c6ad2: 102
+- d430b9a: feat 101
+
 ## 1.16.0
 
 ### Minor Changes

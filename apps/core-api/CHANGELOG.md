@@ -1,5 +1,18 @@
 # @steviebiddles/core-api
 
+## 1.14.0
+
+### Minor Changes
+
+- e5c6ad2: 102
+- d430b9a: feat 101
+
+### Patch Changes
+
+- Updated dependencies [e5c6ad2]
+- Updated dependencies [d430b9a]
+  - @steviebiddles/validator@1.17.0
+
 ## 1.13.0
 
 ### Minor Changes
