@@ -1,5 +1,11 @@
 # @steviebiddles/validator
 
+## 1.15.0
+
+### Minor Changes
+
+- b55169e: lib only
+
 ## 1.14.0
 
 ### Minor Changes
