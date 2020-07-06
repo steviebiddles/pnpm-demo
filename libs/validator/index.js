@@ -5,3 +5,4 @@ exports.isThree = (value) => value === 3;
 exports.isTen = (value) => value === 10;
 
 exports.is101 = (value) => value === 101;
+exports.is102 = (value) => value === 102;

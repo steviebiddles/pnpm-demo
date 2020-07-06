@@ -1,5 +1,5 @@
 const express = require('express');
-const { isOne, isTwo, isTen, is101 } = require('@steviebiddles/validator');
+const { isOne, isTwo, isTen, is101, is102 } = require('@steviebiddles/validator');
 const { adder } = require('@steviebiddles/common');
 
 const app = express();
@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
     console.log(isTen(10));
 
     console.log(is101(101));
+    console.log(is102(103));
 
     console.log(adder(1, 2));
     res.send({
