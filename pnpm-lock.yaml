@@ -11,13 +11,15 @@ importers:
       express: 4.17.1
     specifiers:
       '@steviebiddles/common': ^1.0.0
-      '@steviebiddles/validator': ^1.13.0
+      '@steviebiddles/validator': ^1.14.0
       express: ^4.17.1
   apps/users-api:
     dependencies:
       express: 4.17.1
     specifiers:
       express: ^4.17.1
+  libs/common:
+    specifiers: {}
   libs/logger:
     specifiers: {}
   libs/validator:
